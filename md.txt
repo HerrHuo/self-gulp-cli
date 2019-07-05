@@ -1,0 +1,37 @@
+{
+  "name": "testgulpfile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp dev",
+    "dev": "gulp dev",
+    "clean": "rimraf dist",
+    "build": "rimraf dist && gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+    "del": "^3.0.0", /* 删除文件模块 */
+    "gulp": "^3.9.1", /* gulp库 */
+    "gulp-autoprefixer": "^6.0.0", /* 根据设置浏览器版本自动处理补全浏览器前缀 */
+		"gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.10.0", /* css压缩 */
+    "gulp-concat": "^2.6.1", /* 合并文件，减少网络请求 */
+    "gulp-connect": "^5.6.1", /* 静态web服务器，页面自动重载 */
+    "gulp-file-include": "^2.0.1", /* 加载公共include模块 */
+    "gulp-imagemin": "^5.0.3", /* images压缩 */
+    "gulp-less": "^4.0.1", /* less编译 */
+    "gulp-load-plugins": "^1.5.0", /* 自动加载插件 */
+    "gulp-minify-html": "^1.0.6", /* html压缩 */
+    "gulp-plumber": "^1.2.1", /* 预防css预编译由于语法错误终止wacht */
+    "gulp-rename": "^1.4.0", /* 文件更名 */
+    "gulp-repath": "^1.0.2", /* 重写静态资源引用url，主要功能为给js、css、img加版本号和加cdn等 */
+    "gulp-uglify": "^3.0.1", /* js压缩 */
+    "http-proxy-middleware": "^0.19.0" /* 用于把请求代理转发到其他服务器的中间件 */
+  },
+  "dependencies": {}
+}
