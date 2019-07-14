@@ -1,6 +1,6 @@
 # self-gulp-cli
 
-> myself gulp-cli
+个人gulp架构，适合多页整项目。
 
 ## Build Setup
 
