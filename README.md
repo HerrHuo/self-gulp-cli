@@ -8,6 +8,7 @@
 - build(配置文件)
 
 - src(项目文件)
+
     - activity(例活动项目文件)
     
     - include(公共html模板文件)
