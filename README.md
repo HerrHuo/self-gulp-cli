@@ -9,7 +9,7 @@
 
 - src(项目文件)
 
-    - activity(例活动项目文件)
+    - activity(例：活动项目)
     
     - include(公共html模板文件)
     
