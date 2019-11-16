@@ -1,6 +1,6 @@
 # self-gulp-cli
 
-gulp架构探究
+gulp架构
 
 ### 结构介绍
 
