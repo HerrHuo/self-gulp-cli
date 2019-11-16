@@ -1,6 +1,6 @@
 # self-gulp-cli
 
-个人gulp架构，多页项目。
+gulp架构探究
 
 ### 结构介绍
 
