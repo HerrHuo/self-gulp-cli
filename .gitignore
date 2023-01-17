@@ -1,6 +1,0 @@
-# file folder filtering
-dist
-node_modules
-
-# file filtering
-.DS_Store
