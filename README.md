@@ -8,14 +8,16 @@ gulp架构
 - build(配置文件)
 
 - src(项目文件)
-
-    - activity(例：活动项目)
     
-    - include(公共html模板文件)
+    - modules(公共html模块文件)
     
     - js(js文件)
+
+        - modules(公共js模块文件)
     
-    - less(less文件)
+    - css(css文件)
+
+        - modules(公共css模块文件)
     
     - ...
     

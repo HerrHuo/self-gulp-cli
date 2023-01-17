@@ -1,4 +1,6 @@
-var prod = require('./build/gulpfile.prod.js');
-var dev = require('./build/gulpfile.dev.js');
-prod();
+// 开发环境
+const dev = require('./build/gulpfile.dev.js');
 dev();
+// 生产环境
+const prod = require('./build/gulpfile.prod.js');
+prod();
